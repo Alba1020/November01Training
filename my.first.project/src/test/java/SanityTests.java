@@ -6,7 +6,7 @@ public class SanityTests {
   }
   @Test
   public void canUseVar() {
-	  String test = "Adrian";
+	  String test = "AlbaAdrian";
 	  var testOne = "Adrian";
   }
 }
