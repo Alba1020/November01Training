@@ -56,7 +56,7 @@ public class DataProviderTests {
   public void canGetNFLTeam() {
 	  var expectedCity = "Texans";
 	  
-	  var actualCity = nflTeams.Texans.Name;
+	  var actualCity = NflTeams.Texans.Name;
 	  
 	  Assert.assertEquals(expectedCity,actualCity,"NFL team should be returned."); 
   }
