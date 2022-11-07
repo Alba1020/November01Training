@@ -13,7 +13,7 @@ public class LocationObjectMothers {
 		return new LocationBuilder()
 				.withState(States.Texas)
 				.withCity(Cities.Houston)
-				.withNFLTeam(nflTeams.Texans)
+				.withNFLTeam(NflTeams.Texans)
 				.build();
 	}
 }
