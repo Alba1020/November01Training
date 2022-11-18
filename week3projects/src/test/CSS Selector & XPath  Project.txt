@@ -1,0 +1,27 @@
+CSS Selectors
+
+1.$("#userName") or $("[id='userName']")
+
+2.$(".mt-4 button")
+
+3.$("footer span")
+
+4.$("#nav>li")
+
+5.$("#oldSelectMenu option[value='4']")
+
+
+
+XPath
+
+1.$x("//input[@id='userName']")
+
+2.$x("//button[@class='btn btn-primary']")
+
+3.$x("//div[text()='Vega']")
+
+4.$x("//input[@id='impressiveRadio']/.")
+
+5.parent $x("//input[@id='impressiveRadio']/..")
+
+7.$x("//button[@class='btn btn-primary']/.")

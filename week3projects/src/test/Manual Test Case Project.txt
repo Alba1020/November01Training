@@ -1,0 +1,231 @@
+Manual Test Cases Project
+
+TEST 1:
+Test ScenerioID:
+1
+Test Scenario Description:
+-Verify login functionality
+
+TestCaseID:
+-Login1
+Test Case Description:
+-Enter a valid username & valid password
+Test Steps:
+1. Enter valid username
+2. Enter valid password
+3. Click on login button
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-username:Adrian1020
+-passsword:xxxx!
+Post Conditions:
+-User should be redirected to home page
+Expected Result:
+-Succesful login
+Actual Result:
+-Succesful login
+
+
+TestCaseID:
+-Login2
+Test Case Description:
+-Enter invalid username &/or invalid password
+Test Steps:
+1. Enter invalid username
+2. Enter invalid password
+3. Click login button
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-username: random1020
+-password: sadrwagfawfwe
+Post Conditions:
+-error message
+Expected Result:
+-error message highlighted
+Actual Result:
+-Highlighted error message displayed
+
+
+Test 2:
+Test Scenario ID:
+2
+Test Scenario Description:
+-Verify basic search functionality
+
+TestCaseID:
+-Search1
+Test Case Description:
+-Attempt to search using searchbox entering "SVT Suite"
+Test Steps:
+1.Click top right magnifying glass icon to view search text box
+2. Enter "SVT Suite" into search box
+3. Press Enter
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-SVT Suite
+Expected Result:
+-Redirected to a view with a product labeled SVT Suite
+Actual Result:
+-Redirected to a view with a product labeled SVT Suite
+
+TestCaseID:
+-Search2
+Test Case Description:
+-Attempt to search using searchbox entering random characters
+Test Steps:
+1.Click top right magnifying glass icon to view search text box
+2. Enter random characters into searchbox
+3. Press Enter
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-!@#$%!
+Expected Result:
+-Return a view notifying me that there are no matching search results
+Actual Result:
+-Returned a view that notified me that there were no matching search results
+
+
+Test 3:
+TestScenarioID:
+3
+Test Scenario Description:
+-Verifying add to cart functionality
+
+TestCaseID:
+-AddCart1
+Test Case Description:
+-Attempt to add a product to cart using add to cart button
+Test Steps:
+1.Browse page find a product
+2. Click add to cart button next to the product
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-Clicking
+Expected Result:
+-User gets a notification that the specific item was added to the shopping cart
+Actual Result:
+-Notificaiton showed that the item was added to the shopping cart
+
+Test 4:
+TestScenarioID:
+4
+Test Scenario Description:
+-Verify functionality for remove item for cart
+
+TestCaseID:
+-RemoveCart1
+Test Case Description:
+-Attempt to remove item from cart using remove item button
+Test Steps:
+1.After adding items, click on cart symbol and then view and edit link
+2. Click on remove item button below the item you wish to remove from cart
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-Clicking
+Expected Result:
+-After clicking on remove item button the item to be removed from cart
+Actual Result:
+-Item was removed after clicking remove item button
+
+
+Test 5:
+TestScenarioID:
+5
+Test Scenario Description:
+-Verifying that you can access your account profile
+
+TestCaseID:
+-Profile1
+Test Case Description:
+-Attempt to access account profile
+Test Steps:
+1.Login into account
+2.Click on person icon on top right
+3.View account profile
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-Login info
+-Clicking
+Expected Result:
+-After clicking on person icon to be redirected to account profile
+Actual Result:
+-Succesfully redirected to account profile.
+
+TestCaseID:
+-Profile2
+Test Case Description:
+-Attempt to access account profile without login in successfully
+Test Steps:
+1.Click on person icon on top right without login
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-Clicking
+Expected Result:
+-Login window pop out
+Actual Result:
+-Login window popped out
+
+
+Test 6:
+TestScenarioID:
+6
+Test Scenario Description:
+Verify functionality of carousel banner
+
+TestCaseID:
+-Banner1
+Test Case Description:
+-Cycle through carousel banner using left and right arrows
+Test Steps:
+1. Go to home page
+2. Try to cycle through images using left and right controls on banner
+Preconditions:
+-Valid URL
+-Test Data
+Test Data:
+-Clicking
+Expected Result:
+-Image to change when clicking either left or right controls on banner
+Actual Result:
+-Banner cycled through images when clicking on left or right controls							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
