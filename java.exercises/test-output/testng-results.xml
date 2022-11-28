@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-05T22:53:39 EDT" name="Default suite" finished-at="2022-11-05T22:53:39 EDT" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2022-11-05T22:53:39 EDT" name="Default test" finished-at="2022-11-05T22:53:39 EDT" duration-ms="68">
+      <class name="DataProviderTests">
+        <test-method signature="canGetCityMiami()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetCityMiami" finished-at="2022-11-05T22:53:39 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetCityMiami -->
+        <test-method signature="canGetCitySeattle()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetCitySeattle" finished-at="2022-11-05T22:53:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetCitySeattle -->
+        <test-method signature="canGetNFLTeam()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetNFLTeam" finished-at="2022-11-05T22:53:39 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetNFLTeam -->
+        <test-method signature="canGetStateAbbreviationTexas()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetStateAbbreviationTexas" finished-at="2022-11-05T22:53:39 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetStateAbbreviationTexas -->
+        <test-method signature="canGetStateAbbreviationWashington()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetStateAbbreviationWashington" finished-at="2022-11-05T22:53:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetStateAbbreviationWashington -->
+        <test-method signature="canGetStateNameFromObjectMotherLouisiana()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetStateNameFromObjectMotherLouisiana" finished-at="2022-11-05T22:53:39 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetStateNameFromObjectMotherLouisiana -->
+        <test-method signature="canGetStateNameFromObjectMotherTexas()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="canGetStateNameFromObjectMotherTexas" finished-at="2022-11-05T22:53:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGetStateNameFromObjectMotherTexas -->
+        <test-method signature="cangGetStateNameFlorida()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="cangGetStateNameFlorida" finished-at="2022-11-05T22:53:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cangGetStateNameFlorida -->
+        <test-method signature="cangGetStateNameTexas()[pri:0, instance:DataProviderTests@7b227d8d]" started-at="2022-11-05T22:53:39 EDT" name="cangGetStateNameTexas" finished-at="2022-11-05T22:53:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cangGetStateNameTexas -->
+      </class> <!-- DataProviderTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
