@@ -1,10 +1,8 @@
 Manual Test Cases Project
 
-TEST 1:
-Test ScenerioID:
-1
-Test Scenario Description:
--Verify login functionality
+Title: Login
+Summary:
+-To verify if the login functionality is working properly
 
 TestCaseID:
 -Login1
@@ -24,8 +22,6 @@ Post Conditions:
 -User should be redirected to home page
 Expected Result:
 -Succesful login
-Actual Result:
--Succesful login
 
 
 TestCaseID:
@@ -36,25 +32,15 @@ Test Steps:
 1. Enter invalid username
 2. Enter invalid password
 3. Click login button
-Preconditions:
--Valid URL
--Test Data
-Test Data:
--username: random1020
--password: sadrwagfawfwe
 Post Conditions:
 -error message
 Expected Result:
 -error message highlighted
-Actual Result:
--Highlighted error message displayed
 
 
-Test 2:
-Test Scenario ID:
-2
-Test Scenario Description:
--Verify basic search functionality
+Title: Search
+Summary:
+-To verify that the basic search functionality is working properly.
 
 TestCaseID:
 -Search1
@@ -64,14 +50,9 @@ Test Steps:
 1.Click top right magnifying glass icon to view search text box
 2. Enter "SVT Suite" into search box
 3. Press Enter
-Preconditions:
--Valid URL
--Test Data
 Test Data:
 -SVT Suite
 Expected Result:
--Redirected to a view with a product labeled SVT Suite
-Actual Result:
 -Redirected to a view with a product labeled SVT Suite
 
 TestCaseID:
@@ -89,15 +70,10 @@ Test Data:
 -!@#$%!
 Expected Result:
 -Return a view notifying me that there are no matching search results
-Actual Result:
--Returned a view that notified me that there were no matching search results
 
-
-Test 3:
-TestScenarioID:
-3
-Test Scenario Description:
--Verifying add to cart functionality
+Title: Add to Cart
+Summary:
+-Test is to verify if adding to cart functionality is working properly.
 
 TestCaseID:
 -AddCart1
@@ -113,12 +89,8 @@ Test Data:
 -Clicking
 Expected Result:
 -User gets a notification that the specific item was added to the shopping cart
-Actual Result:
--Notificaiton showed that the item was added to the shopping cart
 
-Test 4:
-TestScenarioID:
-4
+Title: Remove from cart
 Test Scenario Description:
 -Verify functionality for remove item for cart
 
@@ -136,15 +108,11 @@ Test Data:
 -Clicking
 Expected Result:
 -After clicking on remove item button the item to be removed from cart
-Actual Result:
--Item was removed after clicking remove item button
 
 
-Test 5:
-TestScenarioID:
-5
-Test Scenario Description:
--Verifying that you can access your account profile
+Title: Access Profile
+Summary:
+-Verify that accessing your profile functionality is working properly.
 
 TestCaseID:
 -Profile1
@@ -162,8 +130,6 @@ Test Data:
 -Clicking
 Expected Result:
 -After clicking on person icon to be redirected to account profile
-Actual Result:
--Succesfully redirected to account profile.
 
 TestCaseID:
 -Profile2
@@ -178,15 +144,11 @@ Test Data:
 -Clicking
 Expected Result:
 -Login window pop out
-Actual Result:
--Login window popped out
 
 
-Test 6:
-TestScenarioID:
-6
-Test Scenario Description:
-Verify functionality of carousel banner
+Title: Carousel Banner
+Summary:
+-Verfiy that the carousel banner is working as intended.
 
 TestCaseID:
 -Banner1
@@ -201,9 +163,7 @@ Preconditions:
 Test Data:
 -Clicking
 Expected Result:
--Image to change when clicking either left or right controls on banner
-Actual Result:
--Banner cycled through images when clicking on left or right controls							
+-Image to change when clicking either left or right controls on banner						
 							
 							
 							
