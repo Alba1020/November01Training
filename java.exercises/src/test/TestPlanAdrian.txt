@@ -1,0 +1,46 @@
+Introduction
+This document will start off informing the reader about the product and scope. Later, it will outline the test plan going into what will be the different testing tools and methodology used.
+
+Scope In & Out
+In Scope features that will be tested:
+-	Login and signup options
+-	Search functionality
+-	Sorting functionality & facility
+-	Check out process
+-	Payment gateway and payment processing
+-	Shopping cart functionality add/remove
+-	News section functionality
+-	Browser compatibility
+
+Out of Scope:
+-	Testing mobile response
+-	Performance related testing
+-	Security and vulnerability assessment
+
+Quality Objective
+The objective is to ensure that the application conforms to the functional and non-functional requirements outlined in the business requirements document. Also, identify bugs and fix them before going live with the application.
+Test Methodology
+The project is using an agile approach, which means the software is developed in incremental cycles. Incremental testing is needed when the development approach is agile, every release of the project is tested thoroughly to ensure that any bugs or issues are fixed before the next release.
+Test Levels
+
+Expected Test Levels:
+-	Unit testing
+-	Integration testing
+-	System testing
+-	Acceptance testing
+
+Test Completeness
+The criteria utilized to check test completeness is that all manual and automated test cases are executed, and all identified bugs are fixed or scheduled to be fixed in the next release.
+Testing Tools & Environment
+Testing tools list:
+-	Selenium
+-	WebDriver
+-	Jira
+As for environment, the environment will be using local pc and github.
+Deliverables
+
+Expected Deliverables:
+-	Test Plan
+-	Test Cases and Data
+-	Test Results
+-	Test Closure report
